@@ -1,0 +1,25 @@
+services:
+  tracker-server-1:
+    image: tracker-service:v2
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    container_name: tracker-server-1
+    build:
+      context: /home/fotas/tracker
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - /home/fotas:/home/fotas
+      - /home/fotas/fotas-ai/aiworks/ailab:/tf
+      - /media/nfs:/home/fotas/segment:shared
+      - /media/nfs:/tf/segment:shared
+      - /home/fotas/tracker/supervisord.conf:/etc/supervisord.conf
+    working_dir: /tf
+    command: ["supervisord", "-c", "/etc/supervisord.conf"]
+    restart: unless-stopped
