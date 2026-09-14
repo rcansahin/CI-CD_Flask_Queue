@@ -1,0 +1,305 @@
+2025-04-30 11:18:50,318 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 11:18:50,319 INFO supervisord started with pid 1
+2025-04-30 11:18:51,328 INFO spawned: 'flask_app' with pid 7
+2025-04-30 11:18:51,329 INFO spawned: 'tracker' with pid 8
+2025-04-30 11:18:51,348 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:18:51,424 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:18:52,426 INFO spawned: 'flask_app' with pid 9
+2025-04-30 11:18:52,427 INFO spawned: 'tracker' with pid 10
+2025-04-30 11:18:52,437 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:18:52,449 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:18:54,452 INFO spawned: 'flask_app' with pid 11
+2025-04-30 11:18:54,453 INFO spawned: 'tracker' with pid 12
+2025-04-30 11:18:54,463 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:18:54,475 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:18:57,479 INFO spawned: 'flask_app' with pid 13
+2025-04-30 11:18:57,480 INFO spawned: 'tracker' with pid 14
+2025-04-30 11:18:57,498 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:18:57,506 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2025-04-30 11:18:57,509 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:18:58,509 INFO gave up: tracker entered FATAL state, too many start retries too quickly
+2025-04-30 11:39:10,797 WARN received SIGTERM indicating exit request
+2025-04-30 11:39:12,771 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 11:39:12,772 INFO supervisord started with pid 1
+2025-04-30 11:39:13,780 INFO spawned: 'flask_app' with pid 7
+2025-04-30 11:39:13,783 INFO spawned: 'tracker' with pid 8
+2025-04-30 11:39:13,798 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:39:13,872 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:39:14,877 INFO spawned: 'flask_app' with pid 9
+2025-04-30 11:39:14,879 INFO spawned: 'tracker' with pid 10
+2025-04-30 11:39:14,888 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:39:14,903 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:39:16,908 INFO spawned: 'flask_app' with pid 17
+2025-04-30 11:39:16,911 INFO spawned: 'tracker' with pid 18
+2025-04-30 11:39:16,920 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:39:16,933 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:39:19,939 INFO spawned: 'flask_app' with pid 19
+2025-04-30 11:39:19,943 INFO spawned: 'tracker' with pid 20
+2025-04-30 11:39:19,986 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 11:39:20,002 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2025-04-30 11:39:20,006 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 11:39:21,007 INFO gave up: tracker entered FATAL state, too many start retries too quickly
+2025-04-30 12:03:09,657 WARN received SIGTERM indicating exit request
+2025-04-30 12:03:10,762 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:03:10,763 INFO supervisord started with pid 1
+2025-04-30 12:03:11,768 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:03:11,772 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:03:11,802 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 12:03:12,890 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:03:12,894 INFO spawned: 'tracker' with pid 9
+2025-04-30 12:03:13,896 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:12:24,705 WARN received SIGTERM indicating exit request
+2025-04-30 12:12:24,706 INFO waiting for flask_app, tracker to die
+2025-04-30 12:12:24,708 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:12:24,713 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:12:25,659 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:12:25,660 INFO supervisord started with pid 1
+2025-04-30 12:12:26,665 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:12:26,667 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:12:27,781 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:12:27,781 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:15:22,990 WARN received SIGTERM indicating exit request
+2025-04-30 12:15:22,990 INFO waiting for flask_app, tracker to die
+2025-04-30 12:15:22,992 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:15:22,997 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:15:25,876 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:15:25,877 INFO supervisord started with pid 1
+2025-04-30 12:15:26,882 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:15:26,886 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:15:26,906 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099572530576 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:26,907 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:15:27,912 INFO spawned: 'flask_app' with pid 9
+2025-04-30 12:15:27,913 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:15:27,925 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099570015760 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:27,925 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099570015760 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:27,927 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:15:29,933 INFO spawned: 'flask_app' with pid 10
+2025-04-30 12:15:29,945 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099572514960 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:29,945 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099572514960 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:29,947 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:15:32,954 INFO spawned: 'flask_app' with pid 11
+2025-04-30 12:15:32,967 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099572646224 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:32,967 CRIT uncaptured python exception, closing channel <POutputDispatcher at 140099572646224 for <Subprocess at 140099571269968 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:15:32,969 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:15:33,970 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2025-04-30 12:16:33,042 WARN received SIGTERM indicating exit request
+2025-04-30 12:16:33,042 INFO waiting for tracker to die
+2025-04-30 12:16:33,045 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:16:34,789 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:16:34,791 INFO supervisord started with pid 1
+2025-04-30 12:16:35,795 INFO spawned: 'flask_app' with pid 8
+2025-04-30 12:16:35,798 INFO spawned: 'tracker' with pid 9
+2025-04-30 12:16:35,809 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662703139344 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:35,809 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662703139344 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:35,811 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:16:36,816 INFO spawned: 'flask_app' with pid 10
+2025-04-30 12:16:36,817 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:16:36,827 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662702957584 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:36,827 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662702957584 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:36,829 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:16:38,832 INFO spawned: 'flask_app' with pid 11
+2025-04-30 12:16:38,842 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662703217360 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:38,842 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662703217360 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:38,844 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:16:41,851 INFO spawned: 'flask_app' with pid 12
+2025-04-30 12:16:41,864 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662700857616 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:41,864 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139662700857616 for <Subprocess at 139662703142992 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:16:41,865 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:16:42,867 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2025-04-30 12:17:22,912 WARN received SIGTERM indicating exit request
+2025-04-30 12:17:22,912 INFO waiting for tracker to die
+2025-04-30 12:17:22,913 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:17:24,032 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:17:24,033 INFO supervisord started with pid 1
+2025-04-30 12:17:25,035 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:17:25,036 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:17:25,049 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576138256 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:25,051 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:17:26,053 INFO spawned: 'flask_app' with pid 9
+2025-04-30 12:17:26,053 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:17:26,064 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576317200 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:26,064 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576317200 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:26,065 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:17:28,071 INFO spawned: 'flask_app' with pid 10
+2025-04-30 12:17:28,084 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576456912 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:28,084 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576456912 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:28,086 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:17:31,090 INFO spawned: 'flask_app' with pid 11
+2025-04-30 12:17:31,099 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576317200 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:31,099 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139795576317200 for <Subprocess at 139795576315408 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:17:31,100 WARN exited: flask_app (exit status 1; not expected)
+2025-04-30 12:17:32,102 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2025-04-30 12:21:21,370 WARN received SIGTERM indicating exit request
+2025-04-30 12:21:21,371 INFO waiting for tracker to die
+2025-04-30 12:21:21,373 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:33:46,441 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:33:46,443 INFO supervisord started with pid 1
+2025-04-30 12:33:47,447 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:33:47,450 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:33:47,577 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139984724472464 for <Subprocess at 139984738447376 with name flask_app in state STARTING> (stdout)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:33:47,580 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139984724461584 for <Subprocess at 139984738447376 with name flask_app in state STARTING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:33:48,581 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:33:48,582 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:36:04,392 CRIT uncaptured python exception, closing channel <POutputDispatcher at 139984724461584 for <Subprocess at 139984738447376 with name flask_app in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Illegal seek [/usr/lib/python3/dist-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3/dist-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3/dist-packages/supervisor/loggers.py|info|327] [/usr/lib/python3/dist-packages/supervisor/loggers.py|log|345] [/usr/lib/python3/dist-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3/dist-packages/supervisor/loggers.py|doRollover|264])
+2025-04-30 12:39:02,600 WARN received SIGTERM indicating exit request
+2025-04-30 12:39:02,600 INFO waiting for flask_app, tracker to die
+2025-04-30 12:39:02,601 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:39:02,602 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:39:04,049 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:39:04,050 INFO supervisord started with pid 1
+2025-04-30 12:39:05,052 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:39:05,053 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:39:06,191 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:39:06,191 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:41:36,324 WARN received SIGTERM indicating exit request
+2025-04-30 12:41:36,325 INFO waiting for flask_app, tracker to die
+2025-04-30 12:41:37,327 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:41:38,329 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:41:39,866 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:41:39,867 INFO supervisord started with pid 1
+2025-04-30 12:41:40,872 INFO spawned: 'flask_app' with pid 6
+2025-04-30 12:41:40,876 INFO spawned: 'tracker' with pid 7
+2025-04-30 12:41:42,003 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:41:42,003 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:44:56,984 WARN received SIGTERM indicating exit request
+2025-04-30 12:44:56,985 INFO waiting for flask_app, tracker to die
+2025-04-30 12:44:56,986 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:44:56,992 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:44:58,778 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:44:58,779 INFO supervisord started with pid 1
+2025-04-30 12:44:59,782 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:44:59,783 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:45:00,912 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:45:00,912 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:54:56,910 WARN received SIGTERM indicating exit request
+2025-04-30 12:54:56,911 INFO waiting for flask_app, tracker to die
+2025-04-30 12:54:56,913 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:54:56,918 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 12:54:57,954 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 12:54:57,956 INFO supervisord started with pid 1
+2025-04-30 12:54:58,960 INFO spawned: 'flask_app' with pid 7
+2025-04-30 12:54:58,963 INFO spawned: 'tracker' with pid 8
+2025-04-30 12:55:00,077 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:55:00,077 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 12:55:29,006 WARN received SIGTERM indicating exit request
+2025-04-30 12:55:29,006 INFO waiting for flask_app, tracker to die
+2025-04-30 12:55:29,008 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 12:55:29,014 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 13:35:11,477 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 13:35:11,481 INFO supervisord started with pid 1
+2025-04-30 13:35:12,483 INFO spawned: 'flask_app' with pid 7
+2025-04-30 13:35:12,484 INFO spawned: 'tracker' with pid 8
+2025-04-30 13:35:13,620 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:35:13,620 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:38:08,940 WARN received SIGTERM indicating exit request
+2025-04-30 13:38:08,940 INFO waiting for flask_app, tracker to die
+2025-04-30 13:38:08,942 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 13:38:08,948 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 13:38:10,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 13:38:10,831 INFO supervisord started with pid 1
+2025-04-30 13:38:11,835 INFO spawned: 'flask_app' with pid 7
+2025-04-30 13:38:11,838 INFO spawned: 'tracker' with pid 8
+2025-04-30 13:38:12,967 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:38:12,968 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:44:07,850 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 13:44:08,855 INFO spawned: 'tracker' with pid 66
+2025-04-30 13:44:08,881 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 13:44:09,885 INFO spawned: 'tracker' with pid 67
+2025-04-30 13:44:09,911 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 13:44:11,915 INFO spawned: 'tracker' with pid 68
+2025-04-30 13:44:11,941 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 13:44:14,947 INFO spawned: 'tracker' with pid 69
+2025-04-30 13:44:14,974 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 13:44:15,975 INFO gave up: tracker entered FATAL state, too many start retries too quickly
+2025-04-30 13:54:01,410 WARN received SIGTERM indicating exit request
+2025-04-30 13:54:01,410 INFO waiting for flask_app to die
+2025-04-30 13:54:02,417 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 13:54:03,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 13:54:03,342 INFO supervisord started with pid 1
+2025-04-30 13:54:04,347 INFO spawned: 'flask_app' with pid 7
+2025-04-30 13:54:04,350 INFO spawned: 'tracker' with pid 8
+2025-04-30 13:54:05,369 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:54:05,369 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:57:30,452 WARN received SIGTERM indicating exit request
+2025-04-30 13:57:30,452 INFO waiting for flask_app, tracker to die
+2025-04-30 13:57:30,454 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 13:57:30,459 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 13:57:31,408 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 13:57:31,409 INFO supervisord started with pid 1
+2025-04-30 13:57:32,413 INFO spawned: 'flask_app' with pid 7
+2025-04-30 13:57:32,416 INFO spawned: 'tracker' with pid 8
+2025-04-30 13:57:33,530 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 13:57:33,530 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:02:24,219 WARN received SIGTERM indicating exit request
+2025-04-30 14:02:24,220 INFO waiting for flask_app, tracker to die
+2025-04-30 14:02:24,222 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 14:02:24,227 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 14:02:25,186 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 14:02:25,188 INFO supervisord started with pid 1
+2025-04-30 14:02:26,192 INFO spawned: 'flask_app' with pid 6
+2025-04-30 14:02:26,195 INFO spawned: 'tracker' with pid 7
+2025-04-30 14:02:27,308 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:02:27,309 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:04:02,094 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 14:04:03,096 INFO spawned: 'tracker' with pid 120
+2025-04-30 14:04:03,096 WARN received SIGTERM indicating exit request
+2025-04-30 14:04:03,096 INFO waiting for flask_app, tracker to die
+2025-04-30 14:04:03,119 WARN stopped: tracker (exit status 1)
+2025-04-30 14:04:03,120 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 14:04:04,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 14:04:04,117 INFO supervisord started with pid 1
+2025-04-30 14:04:05,122 INFO spawned: 'flask_app' with pid 7
+2025-04-30 14:04:05,124 INFO spawned: 'tracker' with pid 8
+2025-04-30 14:04:05,146 WARN exited: tracker (exit status 1; not expected)
+2025-04-30 14:04:06,240 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:04:06,243 INFO spawned: 'tracker' with pid 9
+2025-04-30 14:04:07,268 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:17:09,633 WARN received SIGTERM indicating exit request
+2025-04-30 14:17:09,640 INFO waiting for flask_app, tracker to die
+2025-04-30 14:17:09,641 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 14:17:09,642 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 14:29:31,390 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 14:29:31,391 INFO supervisord started with pid 1
+2025-04-30 14:29:32,395 INFO spawned: 'flask_app' with pid 7
+2025-04-30 14:29:32,400 INFO spawned: 'tracker' with pid 8
+2025-04-30 14:29:33,544 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:29:33,544 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:32:30,871 WARN received SIGTERM indicating exit request
+2025-04-30 14:32:30,871 INFO waiting for flask_app, tracker to die
+2025-04-30 14:32:30,871 WARN stopped: tracker (terminated by SIGTERM)
+2025-04-30 14:32:30,873 WARN stopped: flask_app (terminated by SIGTERM)
+2025-04-30 14:32:31,660 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 14:32:31,661 INFO supervisord started with pid 1
+2025-04-30 14:32:32,663 INFO spawned: 'flask_app' with pid 6
+2025-04-30 14:32:32,664 INFO spawned: 'tracker' with pid 7
+2025-04-30 14:32:33,797 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:32:33,797 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 08:28:25,961 WARN received SIGTERM indicating exit request
+2025-05-05 08:28:25,963 INFO waiting for flask_app, tracker to die
+2025-05-05 08:28:25,964 WARN stopped: tracker (terminated by SIGTERM)
+2025-05-05 08:28:25,966 WARN stopped: flask_app (terminated by SIGTERM)
+2025-05-05 08:29:16,127 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-05-05 08:29:16,133 INFO supervisord started with pid 1
+2025-05-05 08:29:17,135 INFO spawned: 'flask_app' with pid 6
+2025-05-05 08:29:17,136 INFO spawned: 'tracker' with pid 7
+2025-05-05 08:29:18,338 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 08:29:18,339 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 08:41:47,201 WARN exited: tracker (exit status 1; not expected)
+2025-05-05 08:41:48,203 INFO spawned: 'tracker' with pid 8
+2025-05-05 08:41:48,215 WARN exited: tracker (exit status 2; not expected)
+2025-05-05 08:41:49,217 INFO spawned: 'tracker' with pid 9
+2025-05-05 08:41:49,230 WARN exited: tracker (exit status 2; not expected)
+2025-05-05 08:41:51,232 INFO spawned: 'tracker' with pid 10
+2025-05-05 08:41:51,244 WARN exited: tracker (exit status 2; not expected)
+2025-05-05 08:41:54,248 INFO spawned: 'tracker' with pid 11
+2025-05-05 08:41:54,261 WARN exited: tracker (exit status 2; not expected)
+2025-05-05 08:41:55,262 INFO gave up: tracker entered FATAL state, too many start retries too quickly
+2025-05-05 08:48:55,687 WARN received SIGTERM indicating exit request
+2025-05-05 08:48:55,687 INFO waiting for flask_app to die
+2025-05-05 08:48:56,689 WARN stopped: flask_app (terminated by SIGTERM)
+2025-05-05 08:48:57,438 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-05-05 08:48:57,439 INFO supervisord started with pid 1
+2025-05-05 08:48:58,441 INFO spawned: 'flask_app' with pid 7
+2025-05-05 08:48:58,442 INFO spawned: 'tracker' with pid 8
+2025-05-05 08:48:59,576 INFO success: flask_app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 08:48:59,576 INFO success: tracker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

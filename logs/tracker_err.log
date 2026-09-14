@@ -1,0 +1,90 @@
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'
+Traceback (most recent call last):
+  File "/tf/start_training/queue/tracker.py", line 71, in <module>
+    main()
+  File "/tf/start_training/queue/tracker.py", line 51, in main
+    queue = read_queue()
+            ^^^^^^^^^^^^
+  File "/tf/start_training/queue/tracker.py", line 10, in read_queue
+    with open(QUEUE_FILE, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'queue.json'

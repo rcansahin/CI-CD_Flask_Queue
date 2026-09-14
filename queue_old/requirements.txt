@@ -1,0 +1,15 @@
+flask
+requests
+tensorflow[and-cuda]
+mlflow
+matplotlib
+scikit-learn
+seaborn
+python-dotenv
+tqdm
+numpy
+pandas
+progressbar2
+PyWavelets
+scipy
+pydot
